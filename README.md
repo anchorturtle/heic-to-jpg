@@ -26,6 +26,7 @@ Your phone saves photos as `.heic`, and half the apps, sites and printers out th
 | --- | --- |
 | `convert-heic.bat` | The converter you double-click |
 | `magick.exe` + `.xml` files | Portable ImageMagick 7.1.2 (Q16, x64) |
+| `vcomp140.dll` | Microsoft runtime that magick.exe needs, so nothing has to be installed |
 | `LICENSE.txt` | ImageMagick license |
 
 ## Requirements

@@ -3,10 +3,7 @@ setlocal EnableDelayedExpansion
 title HEIC to JPG converter
 rem Usage: drop this file in the photo folder and double-click it,
 rem or drag a folder onto it.
-rem INSTALL (one time): get ImageMagick for Windows at
-rem   https://imagemagick.org/script/download.php#windows
-rem   run the installer and tick "Add application directory to your system path".
-rem   Fallback: ffmpeg from https://www.gyan.dev/ffmpeg/builds/ added to PATH.
+rem Keep this file next to magick.exe.
 set "SRC=%~1"
 if "%SRC%"=="" set "SRC=%~dp0"
 if "%SRC:~-1%"=="\" set "SRC=%SRC:~0,-1%"
